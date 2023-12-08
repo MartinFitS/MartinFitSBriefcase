@@ -4,7 +4,7 @@ export function MyRoutes(){
     return(
         <BrowserRouter>
             <Routes>
-                <Route exact path="/" element={<IndexPage/>}/>
+                <Route exact path="/MartinFitSBriefcase" element={<IndexPage/>}/>
             </Routes>
         </BrowserRouter>
     )
