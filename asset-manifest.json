@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/MartinFitSBriefcase/static/css/main.663386f4.css",
-    "main.js": "/MartinFitSBriefcase/static/js/main.f91d7b4c.js",
+    "main.css": "/MartinFitSBriefcase/static/css/main.438f6877.css",
+    "main.js": "/MartinFitSBriefcase/static/js/main.a7ef331b.js",
     "index.html": "/MartinFitSBriefcase/index.html",
-    "main.663386f4.css.map": "/MartinFitSBriefcase/static/css/main.663386f4.css.map",
-    "main.f91d7b4c.js.map": "/MartinFitSBriefcase/static/js/main.f91d7b4c.js.map"
+    "main.438f6877.css.map": "/MartinFitSBriefcase/static/css/main.438f6877.css.map",
+    "main.a7ef331b.js.map": "/MartinFitSBriefcase/static/js/main.a7ef331b.js.map"
   },
   "entrypoints": [
-    "static/css/main.663386f4.css",
-    "static/js/main.f91d7b4c.js"
+    "static/css/main.438f6877.css",
+    "static/js/main.a7ef331b.js"
   ]
 }
