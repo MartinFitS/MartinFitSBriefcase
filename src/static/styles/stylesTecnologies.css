@@ -72,6 +72,15 @@ li:hover {
     }
 }
 
+@media(max-width: 431px){
+    .skillsSection {
+
+            margin-top: 306px;
+        }
+    
+}
+
+
 @media (max-width: 391px) {
     .skillsSection h1 {
         margin-top: 60px;

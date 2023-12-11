@@ -149,6 +149,9 @@
     .centerDivText h1 {
         font-size: 63px;
     }
+    .headerDiv {
+        min-height: 600px;
+    }
 }
 
 @media (max-width:415px) {

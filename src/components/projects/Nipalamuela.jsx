@@ -19,7 +19,7 @@ const Nipalamuela = () => {
 
                     <div className="btnsNiPaLaMuela">
                         <a href="">GO TO</a>
-                        <a className="rigthButton"href="">GITHUB REPO</a>
+                        <a className="rigthButton" href="https://github.com/MartinFitS/ni-pa-la-muela" target="blank">GITHUB REPO</a>
                     </div>
             </div>
         </div>

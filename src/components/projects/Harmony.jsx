@@ -11,7 +11,7 @@ const Harmony = () => {
                 <div className="tecnologiesProjectH">
                         <p>NODE JS - MYSQL - HANDLEBARS</p>
                     </div>
-                    <h1>Harmony & Heaven</h1>
+                    <h1 className="hp">Harmony & Heaven</h1>
                     <p className="pHandH">
                     Web application for an inventory and point of sale focused on a musical instrument store.
 
@@ -24,7 +24,7 @@ It has authorization and authentication of different types of users, sales stati
 
                     <div className="btns">
                         <a href="">GO TO</a>
-                        <a className="rigthButton"href="">GITHUB REPO</a>
+                        <a className="rigthButton" target="_blank" href="https://github.com/MartinFitS/HarmonyAndHeavenm">GITHUB REPO</a>
                     </div>
             </div>
             <div className="imageCard"><img src={image} alt="" /></div>

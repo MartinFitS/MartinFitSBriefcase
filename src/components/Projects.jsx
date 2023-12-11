@@ -1,6 +1,7 @@
 import React from "react";
 import Harmony from "./projects/Harmony";
 import Nipalamuela from "./projects/Nipalamuela";
+import LilParrot from "./projects/LilParrot";
 import "../static/styles/Projects.css"
 const Projects = () => {
     return(
@@ -13,6 +14,7 @@ const Projects = () => {
             <div className="galleryProjects">
                 <Harmony/>
                 <Nipalamuela/>
+                <LilParrot/>
             </div>
         </div>
     )

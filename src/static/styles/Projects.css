@@ -78,4 +78,13 @@
         margin-left: 6%;
         width: 100%;
     }
+    .projectTitle {
+        margin-bottom: 130px;
+    }
+}
+
+@media (max-width: 376px){
+    .projectTitle h4 {
+        font-size: 37px;
+    }
 }
