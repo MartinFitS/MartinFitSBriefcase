@@ -8,7 +8,7 @@ import pythonLogo from "../static/images/pythonLogo.png";
 import mongoDbLogo from "../static/images/mongoDbLogo.png";
 import mysqlLogo from "../static/images/mysqlLogo.png";
 import firebaseLogo from "../static/images/firebaseLogo.png"
-import "../static/stylesTecnologies.css"
+import "../static/styles/stylesTecnologies.css"
 const Tecnologies = () => {
     return(
         <div className="skillsSection">

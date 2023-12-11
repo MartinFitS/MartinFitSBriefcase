@@ -1,0 +1,81 @@
+.projectsSection{
+    margin-top: 250px;
+    width: 100%;
+    height: auto;
+}
+
+.projectTitle{
+    width: 35%;
+    margin-left: 32.5%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+.projectTitle h3{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+.projectTitle h4{
+    padding-top: 15px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 60px;
+    color: aqua;
+}
+
+@media (max-width: 820px) {
+    .projectTitle {
+        width: 50%;
+        margin-left: 25%;
+        height: auto;
+        text-align: center;
+        margin-bottom: 200px;
+    }
+
+}
+
+@media (max-width: 540px) {
+    .btns {
+        margin-left: 5%;
+        width: 100%;
+    }
+    .projectTitle {
+        width: 70%;
+        margin-left: 15%;
+    }
+}
+
+@media (max-width: 431px) {
+    .projectTitle h4 {
+        font-size: 46px;
+
+    }
+    .cardLeft .textCardLeft {
+        margin-top: 47%;
+        margin-left: 0%;
+        width: 100%;
+    }
+    .lineTextDiv {
+        width: 100%;
+        height: 20px;
+        background-color: rgb(138, 105, 69);
+    }
+    .tecnologiesProjectH {
+        margin-top: 0px;
+        font-weight: 800;
+        font-family: 'Nanum Gothic', sans-serif;
+        padding-top: 30px;
+        font-size: 25px;
+        color: white;
+    }
+    .textCardLeft h1 {
+        font-size: 42px;
+        margin-left: 5%;
+    }
+    .btns {
+        margin-left: 6%;
+        width: 100%;
+    }
+}
