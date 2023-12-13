@@ -4,7 +4,8 @@ import MyPresentation from "../components/MyPresentation";
 import Tecnologies from "../components/Tecnologies";
 import Projects from "../components/Projects";
 import Contacts from "../components/Contacts";
-import Formulario from "../components/Formulario";
+import Footer from "../components/Footer";
+
 const IndexPage = () => {
     return(
         <React.Fragment>
@@ -13,6 +14,7 @@ const IndexPage = () => {
             <Tecnologies/>
             <Projects/>
             <Contacts/>
+            <Footer/>
         </React.Fragment>
     )
 }

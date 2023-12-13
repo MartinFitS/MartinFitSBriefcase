@@ -69,7 +69,7 @@ const Formulario = ({ setIsVisible }) => {
             },
         });
     };
-// ... (código posterior)
+
 
     return (
         <div className="formulario" id="formMail">
@@ -78,7 +78,7 @@ const Formulario = ({ setIsVisible }) => {
                     X
                 </div>
                 <div className="textForm">
-                    <h3>Write an email!</h3>
+                    <h3>Write An Email!</h3>
                 </div>
                 <div className="contactLineDiv">
                     <div className="nameField">
