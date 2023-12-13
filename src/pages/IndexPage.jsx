@@ -3,6 +3,8 @@ import Header from "../components/Header"
 import MyPresentation from "../components/MyPresentation";
 import Tecnologies from "../components/Tecnologies";
 import Projects from "../components/Projects";
+import Contacts from "../components/Contacts";
+import Formulario from "../components/Formulario";
 const IndexPage = () => {
     return(
         <React.Fragment>
@@ -10,6 +12,7 @@ const IndexPage = () => {
             <MyPresentation/>
             <Tecnologies/>
             <Projects/>
+            <Contacts/>
         </React.Fragment>
     )
 }

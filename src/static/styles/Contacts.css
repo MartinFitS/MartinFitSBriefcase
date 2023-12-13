@@ -1,0 +1,40 @@
+.divContact{
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    text-align: center;
+    margin-top: 250px;
+    margin-bottom: 100px;
+
+}
+
+.divContact h1{
+    font-size: 25px;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: white;
+}
+
+.divContact h3{
+    color: aqua;
+    font-family: 'Nanum Gothic', sans-serif;
+    padding-top: 15px;
+    font-size: 60px;
+}
+
+.divContact p{
+    padding-top: 15px;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: white;
+}
+
+.divContact button{
+    font-size: 17px;
+    border: 2px solid white;
+    margin-top: 15px;
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 6px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
