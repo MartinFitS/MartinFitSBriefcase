@@ -31,6 +31,7 @@
 .socialMediaUl li{
     padding-left: 35px;
     list-style: none;
+    background: transparent;
 }
 
 .socialMedia img{

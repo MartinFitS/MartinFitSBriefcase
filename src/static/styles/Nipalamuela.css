@@ -144,3 +144,16 @@
         width: 94%;
     }
   }
+
+  @media (max-width: 376px) {
+    .btnsNiPaLaMuela {
+        width: 100%;
+        margin-left: 7%;
+    }
+    
+    .divContact button {
+        font-size: 14px;
+        width: 55%;
+    }
+
+  }
