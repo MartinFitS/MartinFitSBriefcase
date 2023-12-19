@@ -1,11 +1,10 @@
 import React from "react";
 import "../static/styles/headerStyles.css"
-import emailLogo from "../static/images/emailLogo.png"
+
 const Header = () => {
     return(
         <div className="headerDiv">
                 <div className="contactMe">
-                    <img src={emailLogo} alt="" />
                 </div>
             <div className="textHeader">
                 <div className="centerDivText">
