@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import "../static/styles/MyPresentation.css";
 import resumePDF from "../static/MartinSernaDiazBriefcase.pdf";
-import yo from "../static/images/FIMAGEmARTO.png";
-import yodos from "../static/images/SimgMarto.png";
-import yotres from "../static/images/TmgMarto.png";
+import yo from "../static/images/MartinPhoto1.png";
+import yodos from "../static/images/MartinPhoto2.png";
+import yotres from "../static/images/MartinPhoto3.png";
 
 const MyPresentation = () => {
   const [imageIndex, setImageIndex] = useState(0);
