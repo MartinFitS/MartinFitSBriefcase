@@ -30,11 +30,19 @@
 .divContact button{
     font-size: 17px;
     border: 2px solid white;
-    margin-top: 15px;
+    margin-top: 25px;
     color: white;
     padding-left: 25px;
     padding-right: 25px;
     padding-top: 6px;
     padding-bottom: 10px;
     cursor: pointer;
+}
+
+.btn_email:hover{
+    border: 2px solid  aqua;
+    color:  aqua;
+    transition: 550ms;
+    transform: scaleX(110%);
+
 }

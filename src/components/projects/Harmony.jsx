@@ -1,6 +1,6 @@
 import React from "react";
 import "../../static/styles/Harmony.css"
-import image from "../../static/images/handhimage.jpeg"
+import image from "../../static/images/imgH.jpeg"
 
 const Harmony = () => {
     return(
@@ -23,7 +23,7 @@ It has authorization and authentication of different types of users, sales stati
                     
 
                     <div className="btns">
-                        <a href="">GO TO</a>
+                        <a className="leftButtonH" href="">GO TO</a>
                         <a className="rigthButton" target="_blank" href="https://github.com/MartinFitS/HarmonyAndHeavenm">GITHUB REPO</a>
                     </div>
             </div>

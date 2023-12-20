@@ -18,8 +18,8 @@ const Nipalamuela = () => {
                     <p className="otherP">Social network and restaurant blog in the city of Manzanillo Colima created with ReactJS, which consumes an API created by myself with NodeJS and has user authentication and route protection with Firebase.</p>
 
                     <div className="btnsNiPaLaMuela">
-                        <a href="">GO TO</a>
-                        <a className="rigthButton" href="https://github.com/MartinFitS/ni-pa-la-muela" target="blank">GITHUB REPO</a>
+                        <a className="lbn" href="">GO TO</a>
+                        <a className="rbn" href="https://github.com/MartinFitS/ni-pa-la-muela" target="blank">GITHUB REPO</a>
                     </div>
             </div>
         </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import "../static/styles/MyPresentation.css";
 import resumePDF from "../static/MartinSernaDiazBriefcase.pdf"; // Asegúrate de proporcionar la ruta correcta
-
+import yo from "../static/images/FIMAGEmARTO.png"
 const MyPresentation = () => {
   const openPDF = () => {
     window.open(resumePDF, "_blank");
@@ -11,7 +11,7 @@ const MyPresentation = () => {
     <div className="cardPresentation">
       <div className="cardPresentationPhotosDiv">
         <div className="imagesDiv">
-          <div className="circleImages"></div>
+          <img src={yo} alt="" />
         </div>
       </div>
       <div className="textCard">

@@ -23,6 +23,10 @@
     color: #ffffff;
 }
 
+
+img{
+    width: 100%;
+}
 .textCard h2{
     padding-bottom: 30px;
     color: aqua;
@@ -52,8 +56,9 @@
 }
 
 .textCard button:hover{
+    transform: scaleX(106%);
     cursor: pointer;
-    transition: 350ms;
+    transition: 550ms;
     color: aqua;
     border: 2px solid #00ffff;
 }
@@ -145,3 +150,4 @@ background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0
         height: 260px;
     }    
 }
+

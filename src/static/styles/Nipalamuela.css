@@ -7,6 +7,25 @@
     margin-bottom: 200px;
 }
 
+.rbn{
+    margin-left: 6%;
+}
+
+.rbn:hover{
+    transition: 550ms;
+    font-size: 19px;
+    color: rgb(81, 203, 81);
+    border: 2px solid rgb(81, 203, 81);
+}
+
+.lbn:hover{
+    transition: 550ms;
+    font-size: 19px;
+    color: rgb(81, 203, 81);
+    border: 2px solid rgb(81, 203, 81);
+    
+}
+
 .cardRight .textCardRight{
     position: absolute;
     right: 0;

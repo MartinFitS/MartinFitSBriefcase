@@ -10,3 +10,21 @@
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 50px;
 }
+
+.lbl:hover{
+    transition: 550ms;
+    font-size: 19px;
+    color: aquamarine;
+    border: 2px solid aquamarine;
+}
+
+.rbl{
+    margin-left: 6%;
+}
+
+.rbl:hover{
+    transition: 550ms;
+    font-size: 19px;
+    color: aquamarine;
+    border: 2px solid aquamarine;
+}

@@ -17,8 +17,8 @@ const LilParrot = () => {
                 
 
                 <div className="btns">
-                    <a href="">GO TO</a>
-                    <a className="rigthButton" target="_blank" href="https://github.com/MartinFitS/LilParrotOdy-Sea">GITHUB REPO</a>
+                    <a className="lbl" href="">GO TO</a>
+                    <a className="rbl" target="_blank" href="https://github.com/MartinFitS/LilParrotOdy-Sea">GITHUB REPO</a>
                 </div>
         </div>
         <div className="imageCard"><img src={image} alt="" /></div>

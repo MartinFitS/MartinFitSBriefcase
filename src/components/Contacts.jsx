@@ -14,7 +14,7 @@ const Contacts = () => {
             <h1>C O N T A C T</h1>
             <h3>You Like What You See?</h3>
             <p>Send me an email, I know we can achieve great things together :D</p>
-            <button onClick={handleButtonClick}>SEND ME AN EMAIL</button>
+            <button className="btn_email"onClick={handleButtonClick}>SEND ME AN EMAIL</button>
             {isVisible && <Formulario setIsVisible={setIsVisible} />}
         </div>
     );

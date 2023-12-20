@@ -89,6 +89,20 @@
   }
 
 
+  .rigthButton:hover{
+    transition: 550ms;
+    color: rgb(138, 105, 69);
+    border: 2px solid rgb(138, 105, 69);
+    font-size: 19px;
+  }
+
+  .leftButtonH:hover{
+    transition: 550ms;
+    color: rgb(138, 105, 69);
+    border: 2px solid rgb(138, 105, 69);
+    font-size: 19px;
+  }
+
   @media (max-width: 1024px) {
     .btns {
         width: 80%;
