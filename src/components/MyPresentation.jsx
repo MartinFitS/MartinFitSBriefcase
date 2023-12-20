@@ -1,17 +1,33 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "../static/styles/MyPresentation.css";
-import resumePDF from "../static/MartinSernaDiazBriefcase.pdf"; // Asegúrate de proporcionar la ruta correcta
-import yo from "../static/images/FIMAGEmARTO.png"
+import resumePDF from "../static/MartinSernaDiazBriefcase.pdf";
+import yo from "../static/images/FIMAGEmARTO.png";
+import yodos from "../static/images/SimgMarto.png";
+import yotres from "../static/images/TmgMarto.png";
+
 const MyPresentation = () => {
+  const [imageIndex, setImageIndex] = useState(0);
+  const images = [yo, yodos, yotres];
+
   const openPDF = () => {
     window.open(resumePDF, "_blank");
   };
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setImageIndex((prevIndex) => (prevIndex + 1) % images.length);
+    }, 2000);
+
+    return () => {
+      clearInterval(intervalId);
+    };
+  }, [images.length]);
 
   return (
     <div className="cardPresentation">
       <div className="cardPresentationPhotosDiv">
         <div className="imagesDiv">
-          <img src={yo} alt="" />
+          <img src={images[imageIndex]} alt="" />
         </div>
       </div>
       <div className="textCard">
