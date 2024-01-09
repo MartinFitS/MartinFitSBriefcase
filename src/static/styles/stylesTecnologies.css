@@ -23,6 +23,7 @@
 }
 
 .imagesTecnologies li{
+    background-color: transparent;
     list-style: none;
     text-align: center;
     width: 10%;
