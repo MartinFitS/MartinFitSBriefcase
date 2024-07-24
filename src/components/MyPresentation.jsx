@@ -3,11 +3,10 @@ import "../static/styles/MyPresentation.css";
 import resumePDF from "../static/MartinSernaDiazBriefcase.pdf";
 import yo from "../static/images/MartinPhoto1.png";
 import yodos from "../static/images/MartinPhoto2.png";
-import yotres from "../static/images/MartinPhoto3.png";
 
 const MyPresentation = () => {
   const [imageIndex, setImageIndex] = useState(0);
-  const images = [yo, yodos, yotres];
+  const images = [yo, yodos];
 
   const openPDF = () => {
     window.open(resumePDF, "_blank");
@@ -38,7 +37,7 @@ const MyPresentation = () => {
           am a 4th semester student studying software engineering.
         </p>
         <p>
-          I am a 19-year-old young man looking for an opportunity to make his
+          I am a 20-year-old young man looking for an opportunity to make his
           debut in the workplace.
         </p>
         <p>
