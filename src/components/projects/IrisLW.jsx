@@ -1,6 +1,6 @@
 import React from "react";
 import '../../static/styles/irislw.css'
-import image from '../../static/images/irislw.png'
+import image from '../../static/images/iris.jpeg'
 const IrisLW = () => {
     return(
         <div className="cardRight">
