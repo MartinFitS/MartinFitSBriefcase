@@ -16,9 +16,7 @@ const IrisLW = () => {
                 <h1 className="irislwtext">Iris LW</h1>
                 <p className="otherP">Application developed for Woodward logistics, to be able to view requests from different companies that are clients, this application is developed as a team and my focus is more on the backend.</p>
 
-                <div className="btnsNiPaLaMuela">
-                    <a className="lbn" target="_blank" href="https://irislw.woodward.mx/">GO TO</a>
-                </div>
+
         </div>
     </div>
     )
