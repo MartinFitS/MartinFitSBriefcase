@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/MartinFitSBriefcase/static/css/main.9be82e96.css",
-    "main.js": "/MartinFitSBriefcase/static/js/main.fcfd541c.js",
+    "main.js": "/MartinFitSBriefcase/static/js/main.afee8a66.js",
     "static/media/MartinPhoto1.png": "/MartinFitSBriefcase/static/media/MartinPhoto1.aa7365a6d55d00f23549.png",
     "static/media/MartinPhoto2.png": "/MartinFitSBriefcase/static/media/MartinPhoto2.df2d9ac8dc5e86a798aa.png",
-    "static/media/irislw.png": "/MartinFitSBriefcase/static/media/irislw.461fe3ed5c39e214fa7e.png",
     "static/media/lilPaRROT.jpg": "/MartinFitSBriefcase/static/media/lilPaRROT.e760cf1154bf27a45d96.jpg",
     "static/media/nipalamuela.jpeg": "/MartinFitSBriefcase/static/media/nipalamuela.e8fa50c2e9be63b25c7f.jpeg",
     "static/media/MartinSernaDiazBriefcase.pdf": "/MartinFitSBriefcase/static/media/MartinSernaDiazBriefcase.7559881c3df8cd4300c2.pdf",
     "static/media/MasterPos.jpg": "/MartinFitSBriefcase/static/media/MasterPos.6ae143e2e71dadda6b6f.jpg",
     "static/media/imgH.jpeg": "/MartinFitSBriefcase/static/media/imgH.260183cd3230a91f92fd.jpeg",
+    "static/media/iris.jpeg": "/MartinFitSBriefcase/static/media/iris.ea2039850000311796f3.jpeg",
     "index.html": "/MartinFitSBriefcase/index.html",
     "main.9be82e96.css.map": "/MartinFitSBriefcase/static/css/main.9be82e96.css.map",
-    "main.fcfd541c.js.map": "/MartinFitSBriefcase/static/js/main.fcfd541c.js.map"
+    "main.afee8a66.js.map": "/MartinFitSBriefcase/static/js/main.afee8a66.js.map"
   },
   "entrypoints": [
     "static/css/main.9be82e96.css",
-    "static/js/main.fcfd541c.js"
+    "static/js/main.afee8a66.js"
   ]
 }
