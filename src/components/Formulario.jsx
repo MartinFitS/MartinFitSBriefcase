@@ -1,27 +1,15 @@
-import React, { useRef, useEffect } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
-import { toast, ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
 import "../static/styles/Formulario.css";
 
 const Formulario = ({ setIsVisible }) => {
     const form = useRef();
-
-    useEffect(() => {
-        const handleClose = () => {
-            setIsVisible(false);
-        };
-
-        const btn_close = document.getElementById("closeModal");
-        btn_close.addEventListener("click", handleClose);
-
-        return () => {
-            btn_close.removeEventListener("click", handleClose);
-        };
-    }, [setIsVisible]);
+    const [isSending, setIsSending] = useState(false);
+    const [showModal, setShowModal] = useState(false);
 
     const sendEmail = (e) => {
         e.preventDefault();
+        setIsSending(true);
 
         emailjs
             .sendForm(
@@ -31,50 +19,28 @@ const Formulario = ({ setIsVisible }) => {
                 "_cL2i_1Zj1CpYbEVH"
             )
             .then(
-                (result) => {
-                    console.log(result.text);
-                    mostrarAlertaExitosa();
+                () => {
+                    setIsSending(false);
+                    form.current.reset();
+                    setShowModal(true);
                 },
                 (error) => {
-                    console.log(error.text);
+                    console.error("Email error:", error.text);
+                    alert("Something went wrong. Please try again.");
+                    setIsSending(false);
                 }
             );
     };
 
-    // ... (importaciones y código previo)
-
-    const mostrarAlertaExitosa = () => {
-        toast.success('I received your email :)!', {
-            autoClose: false,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-            closeButton: (
-                <div className="closeButtonAlert">
-                                    <button className="btn_close__alert" onClick={() => setIsVisible(false)}>Close</button>
-                </div>
-
-            ),
-            style: {
-                display: "block",
-                height: "auto",
-                color: "fff",
-                background: '#140e1a',
-                border: '2px solid #fff',
-                width: '50%', // Ancho de la alerta
-                textAlign: 'center', // Alinear el contenido al centro
-                zIndex: 10000, // Z-index alto para asegurar que esté encima de otros elementos
-                width: "100%",
-            },
-        });
+    const handleClose = () => {
+        setShowModal(false);
+        setIsVisible(false);
     };
-
 
     return (
         <div className="formulario" id="formMail">
             <form ref={form} onSubmit={sendEmail}>
-                <div className="cerrar" id="closeModal">
+                <div className="cerrar" onClick={() => setIsVisible(false)}>
                     X
                 </div>
                 <div className="textForm">
@@ -82,25 +48,38 @@ const Formulario = ({ setIsVisible }) => {
                 </div>
                 <div className="contactLineDiv">
                     <div className="nameField">
-                        <p className="ipForm">N A M E*</p>
-                        <input type="text" name="user_name" required />
+                        <label className="ipForm" htmlFor="user_name">N A M E*</label>
+                        <input id="user_name" type="text" name="user_name" required />
                     </div>
                     <div className="emailField">
-                        <p className="ipForm">E M A I L*</p>
-                        <input type="email" name="user_email" required />
+                        <label className="ipForm" htmlFor="user_email">E M A I L*</label>
+                        <input id="user_email" type="email" name="user_email" required />
                     </div>
                 </div>
                 <div className="subjectLineDiv">
-                    <p className="ipForm">S U B J E C T*</p>
-                    <input type="text" name="subject" required />
+                    <label className="ipForm" htmlFor="subject">S U B J E C T*</label>
+                    <input id="subject" type="text" name="subject" required />
                 </div>
                 <div className="messageDiv">
-                    <p className="ipForm">M E S S A G E*</p>
-                    <textarea name="message" required />
+                    <label className="ipForm" htmlFor="message">M E S S A G E*</label>
+                    <textarea id="message" name="message" required />
                 </div>
-                <button className="sendFormButton">S E N D</button>
+                <button className="sendFormButton" type="submit" disabled={isSending}>
+                    {isSending ? "SENDING..." : "SEND"}
+                </button>
             </form>
-            <ToastContainer />
+
+            {showModal && (
+                <div className="custom-modal">
+                    <div className="custom-modal-content">
+                        <h2>Email Sent!</h2>
+                        <p>Thanks for reaching out. I'll get back to you soon :)</p>
+                        <button className="closeModalBtn" onClick={handleClose}>
+                            Close
+                        </button>
+                    </div>
+                </div>
+            )}
         </div>
     );
 };

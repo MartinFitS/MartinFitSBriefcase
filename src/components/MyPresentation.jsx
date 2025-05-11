@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "../static/styles/MyPresentation.css";
-import resumePDF from "../static/MartinSernaDiazBriefcase.pdf";
+import resumePDF from "../static/CurriculumMartin.pdf";
 import yo from "../static/images/MartinPhoto1.png";
 import yodos from "../static/images/MartinPhoto2.png";
 
@@ -33,18 +33,14 @@ const MyPresentation = () => {
         <h4>ABOUT ME!</h4>
         <h2>Hi, I'm Martín</h2>
         <p>
-          Hello, how are you?, What? Who am I?. My name is Martín Serna Díaz, I
-          am a 4th semester student studying software engineering.
+       I am a sixth-semester Software Engineering student, currently 21 years old, with one year of professional experience focused on backend development and database management.
+
+I consider myself a proactive individual with a strong ability to quickly learn new technologies. I have a solid command of English, which allows me to communicate effectively in technical and collaborative environments.
+
+I am looking to continue growing professionally by contributing my skills and knowledge to challenging projects that support my development as both a software engineer and a technology professional.
+
         </p>
-        <p>
-          I am a 20-year-old young man looking for an opportunity to make his
-          debut in the workplace.
-        </p>
-        <p>
-          I like to learn new technologies, I have a good level of English, in
-          addition to being handsome, strong and with a sense of humor LOL, what
-          more could you ask for.
-        </p>
+
         <button onClick={openPDF}>R E S U M E</button>
       </div>
     </div>

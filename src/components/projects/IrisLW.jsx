@@ -1,6 +1,6 @@
 import React from "react";
 import '../../static/styles/irislw.css'
-import image from '../../static/images/iris.jpeg'
+import image from '../../static/images/irislw.png'
 const IrisLW = () => {
     return(
         <div className="cardRight">
@@ -10,7 +10,7 @@ const IrisLW = () => {
             <div className="lineTextDivRigthILW">
             </div>
             <div className="tecnologiesProjectDiv">
-                <p>REACT JS - NODE JS - MONGO DB - ANT DESIGN - SQL SERVER</p>
+                <p>REACT JS - NEST JS - MONGO DB - ANT DESIGN - SQL SERVER</p>
             </div>
 
                 <h1 className="irislwtext">Iris LW</h1>

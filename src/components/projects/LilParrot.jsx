@@ -17,7 +17,6 @@ const LilParrot = () => {
                 
 
                 <div className="btns">
-                    <a className="lbl" href="">GO TO</a>
                     <a className="rbl" target="_blank" href="https://github.com/MartinFitS/LilParrotOdy-Sea">GITHUB REPO</a>
                 </div>
         </div>
