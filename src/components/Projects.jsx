@@ -5,6 +5,7 @@ import LilParrot from "./projects/LilParrot";
 import Spike from "./projects/Spike"
 import IrisLW from "./projects/IrisLW";
 import Teus from "./projects/Teus";
+import WaterAppFie from "./projects/WaterAppFie";
 import "../static/styles/Projects.css"
 const Projects = () => {
     return(
@@ -15,11 +16,10 @@ const Projects = () => {
             </div>
 
             <div className="galleryProjects">
+                <WaterAppFie/>
                 <Teus/>
                 <Spike/>
                 <IrisLW/>
-                <Harmony/>
-                <Nipalamuela/>
                 <LilParrot/>
             </div>
         </div>

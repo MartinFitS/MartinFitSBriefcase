@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "../static/styles/MyPresentation.css";
-import resumePDF from "../static/CurriculumMartin.pdf";
+import resumePDF from "../static/cv_martinSerna_updated.pdf";
 import yo from "../static/images/MartinPhoto1.png";
 import yodos from "../static/images/MartinPhoto2.png";
 
@@ -33,12 +33,13 @@ const MyPresentation = () => {
         <h4>ABOUT ME!</h4>
         <h2>Hi, I'm Martín</h2>
         <p>
-       I am a sixth-semester Software Engineering student, currently 21 years old, with one year of professional experience focused on backend development and database management.
+        My name is Martín Serna, and I am a Software Engineering student at the University of Colima, currently in my seventh semester. I specialize in backend development and have a strong interest in algorithm optimization and data structures.
 
-I consider myself a proactive individual with a strong ability to quickly learn new technologies. I have a solid command of English, which allows me to communicate effectively in technical and collaborative environments.
+I enjoy tackling logical challenges and solving complex problems, which is why I regularly practice on platforms like LeetCode to sharpen my skills in competitive programming and algorithmic efficiency.
 
-I am looking to continue growing professionally by contributing my skills and knowledge to challenging projects that support my development as both a software engineer and a technology professional.
+I have experience working with technologies such as Node.js, TypeScript, NestJS, as well as both relational and non-relational databases. I’ve contributed to projects where I developed RESTful APIs, applying best practices in design, security, and performance.
 
+I am currently seeking an internship opportunity at a company that values continuous learning and technical excellence—where I can contribute my knowledge, gain real-world experience, and grow alongside passionate professionals.
         </p>
 
         <button onClick={openPDF}>R E S U M E</button>

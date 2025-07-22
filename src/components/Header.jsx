@@ -34,7 +34,7 @@ const Header = () => {
       <div className="textHeader">
         <div className="centerDivText">
           <h1 className={`fade-in ${showHeader.h1 ? 'visible' : ''}`}>MartinFitS</h1>
-          <h2 className={`fade-in ${showHeader.h2 ? 'visible' : ''}`}>FRONTEND DEVELOPER + BACKEND DEVELOPER</h2>
+          <h2 className={`fade-in ${showHeader.h2 ? 'visible' : ''}`}>SOFTWARE ENGINEER STUDENT</h2>
           <p className={`fade-in ${showHeader.p ? 'visible' : ''}`}>Get to know me more, swipe a little:)</p>
           <div className={`drawToDown fade-in ${showHeader.p ? 'visible' : ''}`}></div>
         </div>
