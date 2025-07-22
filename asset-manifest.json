@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/MartinFitSBriefcase/static/css/main.dfe2d2a7.css",
-    "main.js": "/MartinFitSBriefcase/static/js/main.b0a4681a.js",
+    "main.css": "/MartinFitSBriefcase/static/css/main.d8859d39.css",
+    "main.js": "/MartinFitSBriefcase/static/js/main.645c3a3b.js",
     "static/media/MartinPhoto1.png": "/MartinFitSBriefcase/static/media/MartinPhoto1.aa7365a6d55d00f23549.png",
     "static/media/MartinPhoto2.png": "/MartinFitSBriefcase/static/media/MartinPhoto2.df2d9ac8dc5e86a798aa.png",
     "static/media/teusFondoPortafolio.png": "/MartinFitSBriefcase/static/media/teusFondoPortafolio.ea716a59d3ce32aeec01.png",
+    "static/media/waterFIE.png": "/MartinFitSBriefcase/static/media/waterFIE.c40a8ff6310a489c8461.png",
     "static/media/lilPaRROT.jpg": "/MartinFitSBriefcase/static/media/lilPaRROT.e760cf1154bf27a45d96.jpg",
     "static/media/nipalamuela.jpeg": "/MartinFitSBriefcase/static/media/nipalamuela.e8fa50c2e9be63b25c7f.jpeg",
     "static/media/spikePics.webp": "/MartinFitSBriefcase/static/media/spikePics.7489d3fb1235d0ace460.webp",
     "static/media/imgH.jpeg": "/MartinFitSBriefcase/static/media/imgH.260183cd3230a91f92fd.jpeg",
     "static/media/irislw.png": "/MartinFitSBriefcase/static/media/irislw.975622052ee253f431fe.png",
-    "static/media/CurriculumMartin.pdf": "/MartinFitSBriefcase/static/media/CurriculumMartin.9a5633c98166f5e67883.pdf",
+    "static/media/cv_martinSerna_updated.pdf": "/MartinFitSBriefcase/static/media/cv_martinSerna_updated.3fe18ca05ad2e147efa9.pdf",
     "index.html": "/MartinFitSBriefcase/index.html",
-    "main.dfe2d2a7.css.map": "/MartinFitSBriefcase/static/css/main.dfe2d2a7.css.map",
-    "main.b0a4681a.js.map": "/MartinFitSBriefcase/static/js/main.b0a4681a.js.map"
+    "main.d8859d39.css.map": "/MartinFitSBriefcase/static/css/main.d8859d39.css.map",
+    "main.645c3a3b.js.map": "/MartinFitSBriefcase/static/js/main.645c3a3b.js.map"
   },
   "entrypoints": [
-    "static/css/main.dfe2d2a7.css",
-    "static/js/main.b0a4681a.js"
+    "static/css/main.d8859d39.css",
+    "static/js/main.645c3a3b.js"
   ]
 }
